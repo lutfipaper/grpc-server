@@ -1,0 +1,37 @@
+listener:
+    listen: 0.0.0.0
+    port: 8082
+database:
+    # caching:
+    #     enable: true
+    #     host: 127.0.0.1
+    #     port: 6379
+    #     password: ""
+    #     pool: 10
+    #     autoreconnect: false
+    #     startinterval: 2
+    #     maxerror: 5
+    #     poolize: 30
+    #     pooltimeout: 30
+    #     minidleconns: 7
+    #     maxidleconns: 15
+    #     conmaxlife: 600
+    #     conmaxidle: 600
+    # timeout: 30000
+    adapter:
+        enable: true
+        driver: mysql
+        host: 10.200.1.2
+        port: 14045
+        username: lutfi
+        password: !%Y$k(de4hE)%Y3b
+        database: paper_deploy
+        options: ""
+        connection: ""
+        autoreconnect: false
+        startinterval: 2
+        maxerror: 5
+        customPool: false
+        maxConn: 5
+        maxIdle: 5
+        lifeTime: 5
